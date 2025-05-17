@@ -1,11 +1,10 @@
-# Based Cooking Website
+# CC Recipe Website
 
-[https://based.cooking](https://based.cooking)
+[cc.eats](https://cc-eats.vercel.app/)
 
-This is a simple cooking website where users can submit recipes here for credit.
+This is a simple cooking website that contains a portfolio of recipes that 
+are intended for daily use in the CC family.
 There are no ads, trackers or cookies (unless recipes thereof).
-
-This site is compiled and organized with Hugo, using [this very simple theme](https://github.com/lukesmithxyz/lugo).
 
 ## Ways to contribute
 
@@ -34,13 +33,6 @@ This site is compiled and organized with Hugo, using [this very simple theme](ht
 - The file needs to be `\n` terminated in unix-fashion (if you're on Linux you
   don't need to care, it should be automatic).
 
-**If you fail to do these things, I will close your submission and you will have to resubmit. I am tired of having to fix more than 50% of submissions.**
-
-You may include a json file with your personal links/donation addresses in
-`data/authors/your-name.json`. See mine (`data/authors/luke-smith.json`) for a
-model. You can include: `website`, `donate` (general donation link), `email` or
-crypto addresses as `btc`, `xmr` and `eth`.
-
 ### Tags
 
 Remember to add tags to your recipe, but try to use tags already used by other recipes.
@@ -68,12 +60,3 @@ they should be numbered with two digits like: `pix/chicken-parmesan-01.webp`, et
 
 Note also that images should have links beginning with a slash in this use
 case, i.e. `/pix/...`.
-
-## License
-
-This website and all its content is in the public domain.
-By submitting text or images or anything else to this repository,
-you waive any pretense of ownership to it,
-although you are welcome and recommended to give yourself credit
-at the bottom of a submitted page for you adding it
-(including personal or donation links).

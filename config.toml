@@ -1,6 +1,6 @@
-baseURL = 'https://based.cooking/'
+baseURL = 'https://cc-eats.vercel.app/'
 languageCode = 'en-us'
-title = 'Based Cooking'
+title = 'CC Eats'
 theme = 'lugo'
 
 [params]
