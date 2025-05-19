@@ -1,0 +1,227 @@
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/fonts/JetBrainsMonoNerdFontMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	/* background: #151515 ; */
+	background: #1a1b26;     /* TokyoNight background */
+	color: #c0caf5;          /* TokyoNight foreground */
+	/* color: navajowhite ; */
+	max-width: 850px ;
+	margin: auto ;
+	padding: 0 16px ;
+	margin-bottom: 500px ;
+	/* scrollbar-color: gray #151515; */
+	scrollbar-color: #565f89 #1a1b26;
+	font-family: JetBrains Mono ;
+}
+
+
+::-webkit-scrollbar {
+	width: .66vw;
+	background-color: #151515;
+}
+::-webkit-scrollbar-thumb {
+	background-color: gray;
+	border-radius: 5px;
+}
+
+
+#tagcloud {
+	list-style: none ;
+	text-align: center ;
+	padding: 0 ;
+}
+
+#tagcloud li {
+	display: inline-block ;
+}
+
+#tagcloud a {
+	margin: .1em .25em ;
+}
+
+a:visited {
+	/* color: #9d7cd8;          /1* purple for visited *1/ */
+    color : #7dcfff;
+}
+
+a {
+	/* color: #9d7cd8;          /1* purple for visited *1/ */
+    color : #7dcfff;
+}
+
+a:hover {
+	color: #c0caf5;          /* lighten on hover */
+	text-decoration: underline;
+}
+
+h1 {
+	color: #7aa2f7;          /* blue */
+	border-color: #565f89;   /* subtle border */
+    text-align: center ;
+    border-style: solid ;
+    border-width: 0px 0px 2px 0px ;
+}
+
+h2 {
+	color: #f7768e;          /* reddish accent */
+    text-align: center ;
+}
+
+footer {
+	text-align: center ;
+	border-style: solid ;
+	border-width: 2px 0px 0px 0px ;
+	padding: 1em ;
+}
+
+img {
+	max-width: 90% ;
+	max-height: 400px ;
+	margin: auto ;
+	display: block ;
+}
+
+code {
+	overflow-wrap: break-word ;
+	color: lime ;
+}
+
+.taglist {
+	text-align: center ;
+	margin-bottom: 2em ;
+	margin-top: 2em ;
+}
+
+img[alt="BTC Logo"],
+img[alt="ETH Logo"],
+img[alt="XMR Logo"] {
+	max-width: 1em ;
+	max-height: 1em ;
+	display: inline ;
+}
+
+@media (pointer: coarse) {
+	li > a {
+	    display: inline-block;
+		padding: 0.2em 0;
+	}
+}
+
+@media print {
+	a[href] {
+		text-decoration: none ;
+		color: black ;
+	}
+
+	footer,.taglist { display: none ; }
+
+	body {
+		margin: 0;
+	}
+
+
+}
+
+.older-article {
+	display: none ;
+}
+
+.hidden {
+	display: none !important ;
+}
+
+#artlist {
+	font-size: large ;
+}
+
+#artlist li {
+	padding: .25em ;
+}
+
+@media (min-width: 55em) {
+	#artlist { column-count: 2 ;}
+}
+
+@media (min-width: 100em) {
+	#artlist { column-count: 3 ;}
+}
+
+input#search {
+    all: unset;
+	background: #1f2335;
+	color: #c0caf5;
+	border: 1px solid #565f89;
+    padding: 0.7rem 1rem;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.search {
+  width: 400px;
+  max-width: 85vw;
+  position: relative;
+  margin: 0.5rem auto 1.2rem;
+  display: flex;
+}
+
+button#clear-search {
+  all: unset;
+  position: absolute;
+  right: 4px;
+  top: 5px;
+  height: 30px;
+  width: 30px;
+  color: #565f89;
+  cursor: pointer;
+  transition: color 180ms ease-in-out;
+}
+button#clear-search:hover {
+  color: #c0caf5;
+}
+
+
+.matched-recipe {
+	font-size: x-large ;
+	display: list-item !important ;
+}
+
+.list-searched {
+	column-count: 1 !important ;
+	list-style: decimal ;
+	max-width: 600px ;
+	margin: auto ;
+}
+
+#tag_apple:before { content: "🍎" ; }
+
+.cryptocontainer {
+    display: flex ;
+    flex-wrap: wrap ;
+    justify-content: center ;
+}
+.cryptoinfo {
+    max-width: 350px ;
+    text-align: center ;
+    padding-left: 10px ;
+    padding-right: 10px ;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.cryptoinfo code {
+	font-size: small ;
+	overflow-wrap: break-word ;
+}
+.qr {
+    max-height: 150px; ;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.js-only { display: none ; }
+
