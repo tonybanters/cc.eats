@@ -1,11 +1,22 @@
 @font-face {
-    font-family: 'JetBrains Mono';
+    font-family: 'HybridFont';
     src: url('/fonts/JetBrainsMonoNerdFontMono-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    unicode-range: U+0000-00FF, U+0100-024F, U+1E00-1EFF; /* Latin + Extended */
 }
 
+@font-face {
+    font-family: 'HybridFont';
+    src: url('/fonts/SanJiKaiShu-2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+4E00-9FFF, U+3400-4DBF, U+20000-2A6DF; /* Chinese CJK Unified Ideographs */
+}
+
+
 body {
+    font-family: 'HybridFont', sans-serif;
 	background: #1a1b26;
 	color: #c0caf5;
 	max-width: 850px ;
@@ -13,7 +24,6 @@ body {
 	padding: 0 16px ;
 	margin-bottom: 500px ;
 	scrollbar-color: #565f89 #1a1b26;
-	font-family: JetBrains Mono ;
 }
 
 main {
