@@ -1,7 +1,16 @@
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/fonts/JetBrainsMonoNerdFontMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-	font-family: sans-serif ;
-	background: #110000 ;
-	color: #ccc ;
+	font-family: JetBrains Mono ;
+	/* background: #110000 ; */
+    background: #1a1b26;  /* TokyoNight background */
+    color: #c0caf5;        /* TokyoNight foreground */
+	/* color: #ccc ; */
 }
 
 main {

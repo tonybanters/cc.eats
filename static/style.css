@@ -1,13 +1,24 @@
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/fonts/JetBrainsMonoNerdFontMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-	background: #151515 ;
-	color: navajowhite ;
+	/* background: #151515 ; */
+	background: #1a1b26;     /* TokyoNight background */
+	color: #c0caf5;          /* TokyoNight foreground */
+	/* color: navajowhite ; */
 	max-width: 850px ;
 	margin: auto ;
 	padding: 0 16px ;
 	margin-bottom: 500px ;
-	scrollbar-color: gray #151515;
-	font-family: sans-serif ;
+	/* scrollbar-color: gray #151515; */
+	scrollbar-color: #565f89 #1a1b26;
+	font-family: JetBrains Mono ;
 }
+
 
 ::-webkit-scrollbar {
 	width: .66vw;
@@ -18,10 +29,6 @@ body {
 	border-radius: 5px;
 }
 
-a {
-	color: gold ;
-	text-decoration: none ;
-}
 
 #tagcloud {
 	list-style: none ;
@@ -38,23 +45,25 @@ a {
 }
 
 a:visited {
-	color: darkgoldenrod ;
+	color: #9d7cd8;          /* purple for visited */
 }
 
 a:hover {
-	color: beige ;
+	color: #c0caf5;          /* lighten on hover */
 	text-decoration: underline;
 }
 
 h1 {
-	border-style: solid ;
-	border-width: 0px 0px 2px 0px ;
-	text-align: center ;
+	color: #7aa2f7;          /* blue */
+	border-color: #565f89;   /* subtle border */
+    text-align: center ;
+    border-style: solid ;
+    border-width: 0px 0px 2px 0px ;
 }
 
 h2 {
-	color: tomato ;
-	text-align: center ;
+	color: #f7768e;          /* reddish accent */
+    text-align: center ;
 }
 
 footer {
@@ -136,14 +145,14 @@ img[alt="XMR Logo"] {
 	#artlist { column-count: 3 ;}
 }
 
-
 input#search {
-  all: unset;
-  background: #222;
-  color: #fff;
-  padding: 0.7rem 1rem;
-  border-radius: 5px;
-  width: 100%;
+    all: unset;
+	background: #1f2335;
+	color: #c0caf5;
+	border: 1px solid #565f89;
+    padding: 0.7rem 1rem;
+    border-radius: 5px;
+    width: 100%;
 }
 
 .search {
@@ -161,12 +170,12 @@ button#clear-search {
   top: 5px;
   height: 30px;
   width: 30px;
-  color: #888;
+  color: #565f89;
   cursor: pointer;
   transition: color 180ms ease-in-out;
 }
 button#clear-search:hover {
-  color: #eee;
+  color: #c0caf5;
 }
 
 
