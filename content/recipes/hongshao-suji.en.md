@@ -1,6 +1,6 @@
 ---
-title: 红烧素鸡 (Braised Vegetarian Chicken)
-tags: ['vegetarian', 'tofu', '素', '家常菜']
+title: Braised Tofu Skin 
+tags: ['protein', 'tofu']
 date: 2025-05-14
 author: "cc.eats"
 ---

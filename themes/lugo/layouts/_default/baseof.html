@@ -17,13 +17,14 @@
 <body>
 {{ if .Site.Menus.main }}{{ partial "nav.html" . }}{{ end -}}
 <main>
-<main>
-<div style="position:absolute; top: 1rem; right: 1rem;">
-  {{ range .Translations }}
-    <a href="{{ .RelPermalink }}">{{ .Site.Language.LanguageName }}</a>
-  {{ end }}
-</div>
-<header><h1 id="tag_{{ .Title }}">{{ block "title" . }}{{ end }}</h1></header>
+<header>
+    <div class="lang-toggle">
+      {{ range .Translations }}
+        <a href="{{ .RelPermalink }}">{{ .Site.Language.LanguageName }}</a>
+      {{ end }}
+    </div>
+    <h1 id="tag_{{ .Title }}">{{ block "title" . }}{{ end }}</h1>
+</header>
 <article>
 {{ block "main" . }}
 {{ .Content }}
@@ -34,7 +35,7 @@
 </main>
 {{ block "footer" . }}
 <footer>
-	<a href="{{ .Site.BaseURL }}"> Home </a>
+    <a href="{{ "/" | relLangURL }}">Home</a>
 </footer>
 {{ end }}
 </body>
