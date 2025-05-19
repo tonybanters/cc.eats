@@ -13,3 +13,17 @@ theme = 'lugo'
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[languages]
+
+[languages.en]
+languageName = "English"
+weight = 1
+
+[languages.zh]
+languageName = "中文"
+weight = 2
+
