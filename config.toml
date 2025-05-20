@@ -27,3 +27,6 @@ weight = 1
 languageName = "中文"
 weight = 2
 
+[taxonomies]
+  tag = "tags"
+
