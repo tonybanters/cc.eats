@@ -11,6 +11,7 @@
     src: url('/fonts/SanJiKaiShu-2.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    /* font-size: 22px; */
     unicode-range: U+4E00-9FFF, U+3400-4DBF, U+20000-2A6DF; /* Chinese CJK Unified Ideographs */
 }
 

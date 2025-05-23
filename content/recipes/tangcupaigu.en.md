@@ -1,5 +1,5 @@
 ---
-title: Lazy Sweet and Sour Spare Ribs 
+title: Sweet and Sour Ribs 
 tags: ['pork']
 date: 2025-05-14
 author: "cc.eats"

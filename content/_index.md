@@ -4,7 +4,7 @@ description: 'The fast-loading recipe site with cooking only and no ads.'
 layout: single
 ---
 
-## Recipes (做饭)
+## Recipes 
 
 <div class="search js-only">
   <input type="text" id="search" placeholder="Search ALL Recipes...">
